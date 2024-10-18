@@ -1,0 +1,15 @@
+msg.address = "192.168.0.5";
+msg.propertyId = 85;                               
+msg.objectId = { type: 2, instance: 204 };         //this comes from the object details
+msg.values = [{ type: 4, value: 0 }];              //type specifies the value type i.e. floating point, integer, bool, etc. 
+return msg;
+
+
+msg.propertyId: This can be found by 
+
+
+
+
+//Property Id's: https://github.com/ryanluton/bacnet-enums/blob/master/src/enums/property-id.ts
+//Application tags: https://fh1ch.github.io/node-bacstack/global.html#ApplicationTags
+//General Usage:  https://fh1ch.github.io/node-bacstack/bacstack.html#.writeProperty

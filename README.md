@@ -8,6 +8,11 @@ If yes then discover-devices and read-all-devices nodes would not work properly 
 
 https://www.hellgeeks.com/how-to-use-node-red-plugin-node-bacnet-contrib-extended-to-read-bacnet-devices/
 
+### BACnet Details for Nodes
+
+## Application Tags for bacnet write: 
+## 
+
 ## License
 
 The MIT License
